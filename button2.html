@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Button</title>
+	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="angular.min.js"></script>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			font: 30px "Montserrat", sans-serif;
+		}
+		.a1{
+			position: absolute;
+			top: 100px;
+			left: 100px;
+			height: 110px;
+			width: 340px;
+			border-color: rgba(47, 47, 47, 0.67);
+			border-radius: 30px;
+			border-style: solid;
+			box-shadow: 0px 7px 6px rgba(136, 136, 136, 0.2);
+			/*background-color: rgba(47, 47, 47, 0.19);
+			background-position: 10px 10px 10px 10px;*/
+		}
+		#b1{
+			margin: 2px 2px 2px 2px;
+			background-color: rgba(47, 47, 47, 0.40);
+			height: 92px;
+			width: 342px;
+			border: none;
+
+		}
+		#inner {
+			position: absolute;
+			top: 3px;
+			left: 3px;
+			height: 98px;
+			width: 328px;
+			background-color: rgba(47, 47, 47, 0.19);
+			border-radius: 24px;
+			/*height: 92px;
+			width: 342px;*/
+			/*border: none;*/
+		}
+		#inner1 {
+			position: absolute;
+			top: 7px;
+			left: 7px;
+			height: 84px;
+			width: 314px;
+			background-color: #ffffff;
+			background: -webkit-linear-gradient(#ffffff, rgba(47, 47, 47, 0.19)); /* For Safari 5.1 to 6.0 */
+		    background: -o-linear-gradient(#ffffff, rgba(47, 47, 47, 0.19)); /* For Opera 11.1 to 12.0 */
+		    background: -moz-linear-gradient(#ffffff, rgba(47, 47, 47, 0.19)); /* For Firefox 3.6 to 15 */
+		    background: linear-gradient(#ffffff, rgba(47, 47, 47, 0.19));
+			border-radius: 16px;
+			border-color: rgba(130, 130, 130, 0.4) rgba(60, 60, 60, 0.4) rgba(0, 0, 0, 0.5) rgba(60, 60, 60, 0.4);
+			border-width: 2px;
+			
+			border-style: solid;
+			box-shadow: 0px 4px 6px rgba(47, 47, 47, 0.5);
+			
+		}
+		.inset-text {
+		    /* Shadows are visible under slightly transparent text color */
+		    color: rgba(47, 47, 47, 0.67);
+		    text-shadow: 1px 4px 6px rgba(150, 150, 150, 0.7), 0 0 0 #000, 1px 4px 6px rgba(150, 150, 150, 0.7);
+		}
+		.inset-img {
+		    /* Shadows are visible under slightly transparent text color */
+		    color: rgba(60, 60, 60, 0.4);
+		    text-shadow: 1px 4px 6px rgba(150, 150, 150, 0.7), 0 0 0 #000, 1px 4px 6px rgba(150, 150, 150, 0.7);
+		}    
+	</style>
+</head>
+<body>
+	<div class="a1">
+		<div id="inner">
+			<div id="inner1">
+				<span class="glyphicon glyphicon-star inset-img"></span>
+				<b> CHECKOUT </b>
+				<span class="glyphicon glyphicon-star inset-img"></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
